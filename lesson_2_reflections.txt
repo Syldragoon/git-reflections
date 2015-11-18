@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+We create a new versioned repo in order to be able to use versioner.
+This is used when no central repository is already existing.
