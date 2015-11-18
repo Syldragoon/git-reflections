@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 We create a new versioned repo in order to be able to use versioner.
 This is used when no central repository is already existing.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area allows to select next files to commit.
+It allows to be more flexible than repository but allows as well to prepare next files from working directory to versionize.
