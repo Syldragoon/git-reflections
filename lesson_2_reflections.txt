@@ -5,3 +5,13 @@ This is used when no central repository is already existing.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area allows to select next files to commit.
 It allows to be more flexible than repository but allows as well to prepare next files from working directory to versionize.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By checking regularly diff between staging area and most recent commit from repository (git diff --staged)
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In case of feature development and for experimental versions.
+This could help in order to switch more easily between versions.
+
+How do the diagrams help you visualize the branch structure?
+By visualizing separations on branches though command git log --graph --oneline branch1 branch2
