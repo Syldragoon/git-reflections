@@ -15,3 +15,11 @@ This could help in order to switch more easily between versions.
 
 How do the diagrams help you visualize the branch structure?
 By visualizing separations on branches though command git log --graph --oneline branch1 branch2
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is to merge into checkout branch: the other branch could then be deleted.
+By using the diagram, it is easier to find commit related to other branch and to spot how dev was done in order to use them if needed on master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: no need to merge manually which could be painful and to lead to errors
+Cons: automatic merge can make errors and by doing it manually, merge is more controlled.
