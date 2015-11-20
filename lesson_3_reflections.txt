@@ -17,3 +17,6 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Without collaborating through GitHub, Dropbox could be used.
 Easier: easier for people not knowing about versioners such as GIT
 Harder: difficult to solve conflicts in order to merge changes and to review new changes
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+While not using master branch, it allows to isolate master branch from incoming changes and to have branches dedicated for testing purpose. While pushing directly to master, it allows to have quicker fixes and features and it can be less difficult to operate for the developer.
